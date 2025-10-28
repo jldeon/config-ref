@@ -1,11 +1,16 @@
+# Install:
+
 ```
-CFGDIR=$HOME/.jldcfg
+CFGDIR=$HOME/.mycfg
 cd $HOME
-git clone https://github.com/jldeon/config.git $CFGDIR
+git clone https://github.com/jldeon/config-ref.git $CFGDIR
 cd $CFGDIR
-git submodule update --init
 ./install.sh
 
-# Logout/login, or source the shell-specific cfg file:
-. $CFGDIR/bash.cfg
+# Logout/login to apply!
 ```
+
+# Docs
+
+See the "wiki" tab!
+
